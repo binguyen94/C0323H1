@@ -5,136 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Bill</title>
 </head>
 
 <body>
-    <!-- các atributes của input trong form
-        type    = text: chưa văn bản
-                = email: dữ liệu phải có định dạng email
-                = radio: option (single choice)
-                = tel (telephone) định dạng số điện thoại (US Format)
-        placeholder: label hiển thị trong input
-        required: bắt buộc phải nhập dữ liệu cho input
-     -->
-    <form action="">
-        <table>
-            <caption>
-                <h2>General Admission Registration</h2>
-            </caption>
+    <table border="1" width="500px">
+        <tbody>
             <tr>
-                <td valign="top" width="250px">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>Name</td>
-                                <td>
-                                    <input type="text" placeholder="First name" style="width: 70px;">
-                                </td>
-                                <td>
-                                    <input type="text" placeholder="Last name" style="width: 70px;">
-                                </td>
-
-                            </tr>
-                            <tr>
-                                <td>Email</td>
-                                <td colspan="2">
-                                    <input type="email" placeholder="sample@example.com" required>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Gender</td>
-                                <td>
-                                    <input type="radio" name="gender"> Male
-                                </td>
-                                <td>
-                                    <input type="radio" name="gender"> Female
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Phone</td>
-                                <td colspan="2">
-                                    <input type="tel">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">Emergency Contact</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td colspan="2">
-                                    <input type="text">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">Do you requre parking?</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td>
-                                    <input type="radio" name="parking"> Yes
-                                </td>
-                                <td>
-                                    <input type="radio" name="parking"> No
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">What is your room preference</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td colspan="2">
-                                    <input type="radio" name="preference"> Single Room <br>
-                                    <input type="radio" name="preference"> Shared Room <br>
-                                    <input type="radio" name="preference"> No Room Needed
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td width="250px">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td colspan="2">Do you have dietary restriction?</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <input name="restriction" type="radio"> None <br>
-                                    <input name="restriction" type="radio" checked> Vegetarian <br>
-                                    <input name="restriction" type="radio"> Glutten Allery <br>
-                                    <input name="restriction" type="radio"> Lactose Allery <br>
-                                    <input name="restriction" type="radio"> Nut Allegy <br>
-                                    <input name="restriction" type="radio"> Shelfish Allery
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">What activities will you attend?</td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <input name="attend" type="radio" checked> Awards Gala Dinner <br>
-                                    <input name="attend" type="radio"> Luncheon <br>
-                                    <input name="attend" type="radio"> Town Hall
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Do you want to see the list of other attendees and their profiles on the official event app?</td>
-                            </tr>
-                            <tr>
-                                <td >
-                                    <input name="profile" type="radio">Yes
-                                </td>
-                                <td >
-                                    <input name="profile" type="radio">No
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
+                <th rowspan="11">TCB</th>
+                <th width="100px" align="center">Order No:</th>
+                <td colspan="3">#ABC001</td>
             </tr>
-        </table>
-    </form>
+            <tr>
+                <th align="center">Order Date:</th>
+                <td colspan="3">23-Mar-2016</td>
+            </tr>
+            <tr>
+                <th colspan="4" align="center">Customer</th>
+            </tr>
+            <tr>
+                <th width="100px" align="center">Name:</th>
+                <td colspan="3">John Papas</td>
+            </tr>
+            <tr>
+                <th align="center">Address:</th>
+                <td colspan="3">Independence Day 5th str, 11511</td>
+            </tr>
+            <tr>
+                <th colspan="4" align="center">Order Details</th>
+            </tr>
+            <tr>
+                <td width="100px">1</td>
+                <td>Of Mice and Men</td>
+                <td>Book</td>
+                <td align="right">10.00 &euro;</td>
+            </tr>
+            <tr>
+                <td width="100px">2</td>
+                <td>Les Miserables</td>
+                <td>Book</td>
+                <td align="right">12.00 &euro;</td>
+            </tr>
+            <tr>
+                <td width="100px">3</td>
+                <td width="180px">Game of Thrones - S01</td>
+                <td>DVD</td>
+                <td align="right">50.00 &euro;</td>
+            </tr>
+            <tr>
+                <td width="100px">4</td>
+                <td>Samsung Galaxy</td>
+                <td>Mobile Phone</td>
+                <td align="right">200.00 &euro;</td>
+            </tr>
+            <tr>
+                <th colspan="3" align="right">Total:</th>
+                <td align="right">272.00 &euro;</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
