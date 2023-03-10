@@ -1,0 +1,28 @@
+h2 {
+    color: blue;
+}
+.cn{
+    background-color: red;
+}
+.hs{
+    background-color: rgb(236, 171, 8);
+}
+.tb{
+    background-color: blue;
+}
+.cn, .hs, .tb{
+    color: white;
+}
+.cd{
+    color: red;
+}
+.cx{
+    color: blue;
+}
+
+table, td{
+    width:400px; text-align: center; 
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: rgb(155, 145, 133);
+}

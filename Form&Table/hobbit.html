@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,59 +10,65 @@
 </head>
 <body>
     <form action="">
-        <table width="auto">
-          <tbody>
+        <table width="400px">
+            <thead>
             <tr>
-                <caption>SỞ THÍCH CỦA BẠN</caption>
+            <th colspan="4">SỞ THÍCH CỦA BẠN</th>
             </tr>
+            </thead>
+            <tbody>
             <tr>
-                <td align="right" class="tt">Họ và tên</td>
-                <td>
-                    <input type="text" size="25"  placeholder="yourname"></input>
-                </td>
+            <td align="right" class="tt">Họ và tên</td>
+            <td colspan="3">
+                    <input type="text" size="25"></input>
+            </td>
             </tr>
             <tr>
                 <td align="right" class="tt">Email</td>
-                <td>
-                    <input type="email" placeholder="email">
+                <td colspan="3">
+                    <input type="email" size="15"></input>
                 </td>
             </tr>
-            <tr>
+            <tr  class="hb" >
                 <td align="right" class="tt">Sở thích</td>
-                <td class="hb">
-                <input name="hobby"type="checkbox">Thể Thao
-                <input name="hobby"type="checkbox">Âm nhạc
-                <input name="hobby"type="checkbox">Đọc sách
+                <td>
+                    <input name="hobby"type="checkbox">Thể Thao
+                </td>
+                <td>
+                    <input name="hobby"type="checkbox">Âm nhạc
+                </td>
+                <td>
+                    <input name="hobby"type="checkbox">Đọc sách
                 </td>
             </tr>
-            <tr>
+            <tr class="hb">
                 <td></td>                
-                <td class="hb" >
+                <td  >
                     <input name="hobby"type="checkbox">Lướt web
-                    <input name="hobby"type="checkbox">Chơi game
-                    <input name="hobby"type="checkbox">Điện ảnh
+                    </td>
+                    <td>
+                    <input name="hobby"type="checkbox">Chơi game</td>
+                    <td><input name="hobby"type="checkbox">Điện ảnh
                 </td>
-
             </tr>
-
             <tr>
                 <td></td>                
                 <td class="hb">
                     <input name="hobby"type="checkbox" >Du lịch
                     
                 </td>
-
             </tr>
+        </tbody>
+        <tfoot>
             <tr>
                 <td></td>
-                <td>
+                <td colspan="3">
                     <input type="submit" value="Gửi thông tin">
-                
                     <input type="reset" value="Nhập lại">
                 </td>
                 
             </tr>
-         </tbody>
+        </tfoot>   
         </table>
     </form>
     

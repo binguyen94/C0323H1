@@ -1,0 +1,9 @@
+p{
+    color: brown;  background-color: white; font-size: large;font-weight: bolder; 
+}
+form{
+    background-color: rgb(243, 239, 233); width: 500px;
+}
+button{
+    color: white; background-color: green; border-radius: 5%;
+}
