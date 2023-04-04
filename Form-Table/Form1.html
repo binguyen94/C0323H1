@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT bổ sung Form</title>
     <style>
-        
         table {            
             border-collapse: collapse;
-            width: 500px;
+            width: 600px;
         }
-        th, td, tr{
+        th, td {
             border: 1px solid black;         
         }
-        .bodau {
-            border: 1px solid white; 
+        td.no-border {
+        border-right: none;
+        border-bottom: none;
         }
         td {
             padding: 5px;
@@ -40,35 +40,35 @@
             <th>Type</th>
         </tr>
         <tr>
-            <td>1</td>
+            <td class="b">1</td>
             <td class="a">Bill Gates</td>
             <td class="a">Founder Microsoft</td>
-            <td class="a">$1000</td>
+            <td class="b">$1000</td>
             <td rowspan="4">Company Founder</td>
         </tr>
         <tr>
-            <td>2</td>
+            <td class="b">2</td>
             <td class="a">Steve Jobs</td>
             <td class="a">Founder Apple</td>
-            <td class="a">$1200</td>          
+            <td class="b">$1200</td>          
         </tr>
         <tr>
-            <td>3</td>
+            <td class="b">3</td>
             <td class="a">Larry Page</td>
             <td class="a">Founder Google</td>
-            <td class="a">$1100</td>
+            <td class="b">$1100</td>
         </tr>
         <tr>
-            <td>4</td>
+            <td class="b">4</td>
             <td class="a">Mark Zuckeberg</td>
             <td class="a">Founder Facebook</td>
-            <td class="a">$1300</td>
+            <td class="b">$1300</td>
         </tr>
         <tfoot>
         <tr>
             <td colspan="3" class="b">Total Expense</td>
-            <td class="a">$4600</td>
-            <td class="bodau"></td>
+            <td class="b">$4600</td>
+            <td class="no-border"></td>
         </tr>
     </tfoot>
         </table>
