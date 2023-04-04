@@ -1,3 +1,31 @@
-.td{
-    border-style: inset;
+.tieude {
+    border-top: 2px solid black ;
+    padding-top: 0px;
+    border-bottom: 0.5px solid rgb(205, 195, 195) ;
+    width: 800px;
+}
+.cauhoi {
+    font-weight: bold;
+}
+.table2 {
+    border-collapse: collapse;
+    text-align: center;
+    width: 800px;
+    tr:nth
+}
+
+.a {
+    text-align: left;
+    border: 1px solid black;
+    width: 300px;
+}
+.b{
+    text-align: center;
+    border: 1px solid black 
+}
+td.b{
+    width: 100px;
+}
+table.table2 tr:nth-child(odd) {
+    background-color: rgb(174, 174, 191);
 }
