@@ -1,28 +1,49 @@
+body {
+    padding-left: 50px;
+}
 h2 {
     color: blue;
+    font-size: 30px;
 }
-.cn{
-    background-color: red;
+table {
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
 }
-.hs{
-    background-color: rgb(236, 171, 8);
-}
-.tb{
-    background-color: blue;
-}
-.cn, .hs, .tb{
-    color: white;
-}
-.cd{
-    color: red;
-}
-.cx{
-    color: blue;
+sub {
+    font-size: 12px;
+    color: black;
 }
 
-table, td{
-    width:400px; text-align: center; 
-    border-collapse: collapse;
-    border-width: 2px;
-    border-color: rgb(155, 145, 133);
+th {
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+tbody td:first-child{
+    color: red;
+}
+tbody td:last-child{
+    color: blue;
+}
+tbody td {
+    font-size: 20px;
+    font-weight: bold;
+}
+.cn {
+    background-color: red;
+}
+.hs {
+    background-color: orange;
+}
+.tb {
+    background-color: blue;
+}
+td {
+    border: 3px solid rgb(183, 176, 176);
+    padding: 5px;
+}
+.nb {
+    border:none;
 }

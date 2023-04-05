@@ -2,22 +2,22 @@ table,th,td{
     border-collapse:collapse
 }
 table {
-    width:500px; height: 450px;
+    width:500px; height: 500px;
     background-color: orange;
 }
 td{
     width: 55px; height: 55px;
 }
-table>tbody>tr:nth-child(odd)>td:nth-child(odd){
+tr:nth-child(odd) td:nth-child(odd){
     background-color:black
 }
-table>tbody>tr:nth-child(odd)>td:nth-child(even){
+tr:nth-child(odd) td:nth-child(even){
     background-color: white;
 }
-table>tbody>tr:nth-child(even)>td:nth-child(even){
+tr:nth-child(even) td:nth-child(even){
     background-color: black;
 }
-table>tbody>tr:nth-child(even)>td:nth-child(odd){
+tr:nth-child(even) td:nth-child(odd){
     background-color: white;
 }
 
