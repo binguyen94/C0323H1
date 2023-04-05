@@ -5,6 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT bổ sung Form</title>
+    <!--
+        table
+            -> caption: tiêu đề của bảng
+            -> thead (table head): tiêu đề của các cột
+                ->tr (table row): tạo ra 1 dòng
+                    -> th (table heading)
+            -> tbody : chứa dữ liệu của bảng
+                -> tr
+                    -> th/td (table data)
+            -> tfoot : chân/tổng hợp của bảng
+                ->tr
+                    -> th/td  
+    -->
     <style>
         table {            
             border-collapse: collapse;
@@ -21,17 +34,15 @@
             padding: 5px;
         }
         .a {
-            margin-left: 5px;
-        }
-        .b {
             text-align: center;
         }    
         
     </style>
 </head>
 <body>
-    <form>
         <table>
+            <caption><h2>Salary Employee</h2></caption>
+        <thead>
         <tr>
             <th>No.</th>
             <th>Full Name</th>
@@ -39,39 +50,42 @@
             <th>Salary</th>
             <th>Type</th>
         </tr>
+        </thead>
+        <tbody>
         <tr>
-            <td class="b">1</td>
-            <td class="a">Bill Gates</td>
-            <td class="a">Founder Microsoft</td>
-            <td class="b">$1000</td>
-            <td rowspan="4">Company Founder</td>
+            <td class="a">1</td>
+            <td >Bill Gates</td>
+            <td >Founder Microsoft</td>
+            <td class="a">$1000</td>
+            <td rowspan="4" class="a">Company Founder</td>
         </tr>
         <tr>
-            <td class="b">2</td>
-            <td class="a">Steve Jobs</td>
-            <td class="a">Founder Apple</td>
-            <td class="b">$1200</td>          
+            <td class="a">2</td>
+            <td >Steve Jobs</td>
+            <td >Founder Apple</td>
+            <td class="a">$1200</td>          
         </tr>
         <tr>
-            <td class="b">3</td>
-            <td class="a">Larry Page</td>
-            <td class="a">Founder Google</td>
-            <td class="b">$1100</td>
+            <td class="a">3</td>
+            <td >Larry Page</td>
+            <td >Founder Google</td>
+            <td class="a">$1100</td>
         </tr>
         <tr>
-            <td class="b">4</td>
-            <td class="a">Mark Zuckeberg</td>
-            <td class="a">Founder Facebook</td>
-            <td class="b">$1300</td>
+            <td class="a">4</td>
+            <td >Mark Zuckeberg</td>
+            <td >Founder Facebook</td>
+            <td class="a">$1300</td>
         </tr>
+        </tbody>
         <tfoot>
         <tr>
-            <td colspan="3" class="b">Total Expense</td>
-            <td class="b">$4600</td>
+            <td colspan="3" class="a">Total Expense</td>
+            <td class="a">$4600</td>
             <td class="no-border"></td>
         </tr>
-    </tfoot>
+        </tfoot>
         </table>
-    </form>
+    
 </body>
 </html>
