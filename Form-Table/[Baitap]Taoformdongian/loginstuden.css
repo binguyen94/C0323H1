@@ -1,0 +1,22 @@
+body {
+    padding-left: 200px;
+}
+table{
+    background-color: rgb(255,253,170);
+    width: 400px; 
+    height: 400px;
+    padding: 4px 4px;  
+}
+table th {
+    background-color: rgb(212,253,214);
+    color: blue;
+    text-align: left;
+
+}
+table th, table td {
+    padding-left: 5px;
+    
+}
+
+
+
