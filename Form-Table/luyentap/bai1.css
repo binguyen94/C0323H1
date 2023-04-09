@@ -1,0 +1,64 @@
+body{
+    width: 600px;
+}
+.tb1, .tb2, .tb3{
+    width: 600px;
+}
+.tb1 {
+    border-collapse: collapse;
+    margin-bottom: 5px;
+    
+}
+.tb1 tbody,.tb1 tfoot {
+    border: 3px solid  rgb(77,170,90);
+}
+.tb1 td{
+    border: 1px solid black;
+    text-align: center;
+}
+.tb1 td:last-child {
+    border: none;
+    width: 90%;
+    font-weight: bold;
+
+}
+.tb1 tfoot {
+    font-size: 25px;
+}
+.tb1 td {
+    padding: 3px;
+}
+.tb2 {  
+    border-collapse: collapse;
+    font-weight: bold;
+}
+.tb2 tr:last-child td:last-child,
+.tb2 tr:last-child td:nth-last-child(2) {
+    border: 1px solid black;  
+}
+.tb3 {
+    border-collapse: collapse;
+    
+}
+.tb3 td, th {
+    border: 1px solid black;
+}
+.tb3 th {
+    padding: 3px;
+}
+.tb3 th:last-child {
+    width: 20%;
+}
+.tb3 th:nth-child(3){
+    width: 10%;
+}
+.tb3 tfoot{
+    font-weight: bold;
+}
+.tb3 thead{
+    color: white;
+    background-color: rgb(77,170,90);
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

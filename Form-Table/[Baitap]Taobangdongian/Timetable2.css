@@ -1,0 +1,29 @@
+body {
+    padding: 50px;
+}
+.table1 {
+    width: 600px;
+    color: blue;
+}
+.table1 td {
+    padding-left: 15px;
+}
+.a {
+    text-align: right;
+    padding-right: 15px;
+}
+.table2 { 
+    border-collapse: collapse;
+    width:  600px;
+
+}
+.table2 td, th {
+    border: 1px solid black;
+}
+.vang {
+    background-color: yellow;
+}
+.cam {
+    background-color: orange;
+}
+

@@ -1,11 +1,20 @@
-.tieude {
-    border-top: 2px solid black ;
-    padding-top: 0px;
-    border-bottom: 0.5px solid rgb(205, 195, 195) ;
+
+.tde {
+    border-top: 3px solid black;
+    border-bottom: 1px dashed black;
     width: 800px;
 }
+.tde1 {
+    font-size: 30px;
+    font-weight:600;
+
+    
+    
+}
+
 .cauhoi {
-    font-weight: bold;
+    font-weight: 600;
+    margin-bottom: 2px;
 }
 .table2 {
     border-collapse: collapse;

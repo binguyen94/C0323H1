@@ -1,0 +1,21 @@
+body {
+    padding-left: 200px;
+}
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+td, th {
+    border: 1px solid black;
+}
+th, tfoot {
+    padding: 5px;
+}
+td:last-child, td:first-child {
+    text-align: left;
+    padding-left: 4px;
+}
+td, #tf {
+    text-align: center;
+}
+
