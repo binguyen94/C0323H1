@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
     <link rel="stylesheet" href="/Form-Table/[Baitap]Taoformlaysurvey/survey.css">
+    <script src="/Form-Table/[Baitap]Taoformlaysurvey/survey.js"></script>
 </head>
 <body>
     <form action="">
@@ -37,8 +38,8 @@
         <input type="radio" name="gender">Male<br>
         <input type="radio" name="gender">Female<br>
         <input type="radio" name="gender">Nonbinary<br>
-        <input type="radio" name="gender" id="other">Other<br>
-        <input type="text" maxlength="250" id="other">
+        <input type="radio" name="gender" onchange="clickother()" id="Ot">Other<br>
+        <input type="text" maxlength="250" id="">
         </p>  
         <p class="cauhoi">Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
         <input type="checkbox">Product 1<br>
