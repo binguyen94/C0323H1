@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studentform</title>
+    <link rel="stylesheet" href="/Form-Table/[Additional-exercises]/Studentform/studentform.css">
+</head>
+<body>
+    <form >
+        
+                <p align="right">Student Registaration Form</p>
+                <table>
+                <tbody>
+                    <tr>
+                        <td width="100px">First Name:</td>
+                        <td>
+                            <input type="text" placeholder="Enter your first name" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last name:</td>
+                        <td>
+                            <input type="text" placeholder="Enter your last name" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input type="email" placeholder="it should contain@.." size="42px"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td>
+                            <input type="tel" placeholder="only 10 digits are allowed" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender">Male
+                            <input type="radio" name="gender">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date Of Birth:</td>
+                        <td>
+                            <input type="date" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Address:</td>
+                        <td>
+                            <textarea name="add" cols="40" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>City:</td>
+                        <td>
+                            <input type="text" name="city" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Area PIN:</td>
+                        <td>
+                            <input type="text" name="PIN" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>State:</td>
+                        <td>
+                            <input type="text" name="state" size="42px">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Qualification:</td>
+                        <td> 
+                            <select name="q">
+                                <option value="Select Qualification">Select Qualification</option>
+                                <option value="Math">Math</option>
+                                <option value="History">History</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top">Specialization:</td>
+                        <td>
+                            <input type="checkbox" name="special">Computer Science<br>
+                            <input type="checkbox" name="special">Information Technology<br>
+                            <input type="checkbox" name="special">Computer Archtecture<br>
+                            <input type="checkbox" name="special">Tele Communication
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="pass" size="42px">
+                        </td>
+                    </tr>
+                    <tfoot colspan="4">
+                        <td>
+                            <button type="button">Registered</button>
+                        </td>
+                        <td></td>
+                    </tfoot>
+                </tbody>               
+        </table>
+    </form>
+</body>
+</html>
