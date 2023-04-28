@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sử dụng hàm confirm để nhận thông tin đầu vào
+         và đưa ra quyết định dựa trên những thông tin đó.</title>
+</head>
+<body>
+<script>
+
+    // function processConfirm(answer) {
+    //     let result = "";
+    //     if (answer) {
+    //         result = "Mãi mãi chỉ yêu Thư!";
+    //     } else {
+    //         result = "Ko chỉ Thư mà còn Mai Anh nữa ^^";
+    //     }
+    //     return result;
+    // }
+    
+    // let confirmAnswer = confirm("Nhật thích Thư nhiều chứ?");
+    // let theAnswer = processConfirm(confirmAnswer);
+    // alert(theAnswer);
+    
+
+    function processConfirm(answer){
+        let result ="";
+        if (answer){
+            result= "Mãi mãi iu Thư";
+        }else {
+            result="Ko nha. yêu Mai Anh nữa";
+        }
+        return result
+    }
+    let confirmAnswer = confirm("Nhật có thích Thư Ko?");
+    let answer = processConfirm(confirmAnswer);
+    alert(answer)
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game caro đơn giản</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tbody>
+            <tr>
+                <td id="cell-0-0">0</td>
+                <td id="cell-0-1">0</td>
+                <td id="cell-0-2">0</td>
+            </tr>
+            <tr>
+                <td id="cell-1-0">0</td>
+                <td id="cell-1-1">0</td>
+                <td id="cell-1-2">0</td>
+            </tr>
+            <tr>
+                <td id="cell-2-0">0</td>
+                <td id="cell-2-1">0</td>
+                <td id="cell-2-2">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="change-value">Change Value</button>
+
+    <script>
+        let board = [[0, 0, 0], [0, 0, 0], [0, 0, 0]];
+
+        for (let i = 0; i < board.length; i++) {
+            for (let j = 0; j < board[i].length; j++) {
+                let cell = document.getElementById(`cell-${i}-${j}`);
+                cell.addEventListener("click", function() {
+                    play(i, j);
+                });
+            }
+        }
+
+        let changeValueBtn = document.getElementById("change-value");
+        changeValueBtn.addEventListener("click", function() {
+            let row = prompt("Enter a row index: ");
+            let col = prompt("Enter a col index: ");
+            let value = prompt("Enter a new value: ");
+            let cell = document.getElementById(`cell-${row}-${col}`);
+            cell.innerText = value;
+            if (cell.innerText === "0") {
+                cell.innerText = "X";
+            }
+        });
+
+        function play(row, col) {
+            // code xử lý đánh cờ
+        }
+
+        function check_win() {
+            // code xác định người chơi chiến thắng
+        }
+
+    </script>
+</body>
+</html>
